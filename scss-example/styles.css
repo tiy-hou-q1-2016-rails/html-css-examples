@@ -1,0 +1,56 @@
+header {
+  background: #0f4325;
+  border-bottom: 2px solid #06190e; }
+  header ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0; }
+    header ul li {
+      display: inline-block;
+      padding: 10px; }
+      header ul li a {
+        text-decoration: none;
+        color: #2bc06a; }
+      header ul li a:hover {
+        color: #06190e; }
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1442589031151-61d5645469d7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=86aed4d82f9ab1324e46ae97b4cd98e1) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10em 0; }
+  .hero .call-to-action {
+    background: rgba(15, 67, 37, 0.5);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; }
+    .hero .call-to-action button {
+      border: black;
+      background: #0f4325;
+      padding: 1em;
+      border-radius: 5px;
+      color: white; }
+      .hero .call-to-action button:hover {
+        color: grey; }
+      .hero .call-to-action button.large {
+        font-size: 4rem;
+        padding: 2rem; }
+
+article {
+  color: black; }
+  article ul.thumbnail {
+    list-style: none; }
+    article ul.thumbnail li {
+      width: 250px;
+      display: inline-block; }
+  article img {
+    border: 5px solid #0f4325;
+    max-width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */

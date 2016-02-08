@@ -1,0 +1,73 @@
+$primary-color: darken(#2ECC71, 33%);
+header {
+  background: $primary-color;
+  border-bottom: 2px solid darken($primary-color, 10%);
+  ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: lighten($primary-color, 30%)
+      }
+      a:hover{
+        color: darken($primary-color, 10%)
+      }
+    }
+  }
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1442589031151-61d5645469d7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=86aed4d82f9ab1324e46ae97b4cd98e1) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10em 0;
+
+  .call-to-action {
+    background: rgba($primary-color, 0.5);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    button {
+      border: darken($primary-color, 20%);
+      background: $primary-color;
+      padding: 1em;
+      border-radius: 5px;
+      color: white;
+      &:hover {
+        color: grey;
+      }
+      &.large {
+        font-size: 4rem;
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+article {
+
+  ul.thumbnail {
+    list-style: none;
+    li {
+      width: 250px;
+      display: inline-block;
+    }
+  }
+
+  color: darken($primary-color, 20%);
+  img {
+    border: 5px solid $primary-color;
+    max-width: 100%;
+  }
+}
